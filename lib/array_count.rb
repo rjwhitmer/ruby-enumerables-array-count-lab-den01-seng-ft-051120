@@ -16,7 +16,7 @@ def count_empty_strings(array)
   is_empty = 0 
   
   array.count do |element|
-    if element.String("")
+    if element == ""
       empty += 1 
     end
   end
