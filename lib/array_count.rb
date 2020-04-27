@@ -3,7 +3,7 @@ def count_strings(array)
   strings = 0 
   
   array.count do |element|
-    element.is_a(String)?
+    element.is_a?(String)
     strings += 1 
   end
   strings
